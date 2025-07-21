@@ -61,8 +61,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
   flex-wrap: wrap;
+  width: 1000px;
+  margin: 0 auto;
 }
 
 .reverse {
@@ -70,7 +71,17 @@ body {
 }
 
 .text {
-  flex: 1;
+  
+  padding-right: 30px;
+  width: 40% ;
+  /* box-sizing: border-box; */
+}
+
+.image {
+  
+  padding-left: 30px;
+  width: 60%;
+  /* box-sizing:border-box ; */
 }
 
 /* #image-1-placeholder {
